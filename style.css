@@ -38,3 +38,9 @@ html,body{
 #my-frame{
     height:auto;
 }
+
+.timeline{
+    background-color:red;
+    margin:15%;
+    padding:20px;
+}
