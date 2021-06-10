@@ -1,31 +1,58 @@
 html,body{
-    padding: 80px !important;
-    background-color:#f8f9fa !important;
+
 }
 
 *{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding:0px 20px 0 10px !important;
+    font-family: cursive;
 }
 
 .navbar{
-    padding:40px 20px 0 10px !important;
-    display: flex;
-    align-items: flex-end 	 !important;
+    background-color:transparent !important;
+    font-size: 15px;
+    margin-left:20%;
+    color:rgb(236, 246, 255) !important;
+}
+
+.navbar-toggler{
+    background-color:aliceblue !important;
+    margin-right:20%;
 }
 
 .navbar-brand{
-    font-size:23px !important;
+    font-size:15px !important;
+    font-weight: bold;
+    font-family: cursive;
+    padding-right: 70px !important;
+    color:aliceblue !important;
 }
 
-.nav-item{
-    padding: 10px !important;
-    display: flex;
-    align-items: flex-end 	 !important;
+.nav-link{
+    color:aliceblue !important;
+    padding-left: 40px !important;
 }
 
-.landing-page{
-    text-align: center;
+.nav-link:hover{
+    color:grey !important;
+}
+
+.fa{
+    padding:10px !important ;
+    color:aliceblue !important;
+}
+
+.fa-envelope{
+    padding-left:70px !important;
+}
+
+.fa:hover{
+    color:grey !important;
+}
+
+.page-header{
+    margin-left:15%;
+    margin-right: 15%;
+    padding-top:120px;
+    color:aliceblue;
 }
 
 .my-container{
@@ -36,7 +63,9 @@ html,body{
 }
 
 #my-frame{
+    max-width:80%;
     height:auto;
+    transform: rotate(-3deg);
 }
 
 .timeline{
@@ -44,3 +73,4 @@ html,body{
     margin:15%;
     padding:20px;
 }
+
