@@ -6,6 +6,13 @@ html,body{
     font-family: cursive;
 }
 
+#back-wood{
+    background-image:url('src/images/back.jpg');
+    background-size: cover;
+    height: 800px;
+}
+
+
 .navbar{
     background-color:transparent !important;
     font-size: 15px;
@@ -74,3 +81,11 @@ html,body{
     padding:20px;
 }
 
+
+
+@media only screen and (max-width:780px){
+    #back-wood{
+        height:1200px !important;
+    }
+
+}
