@@ -1,91 +1,116 @@
-html,body{
+html,
+body {}
 
-}
-
-*{
+* {
     font-family: cursive;
 }
 
-#back-wood{
-    background-image:url('src/images/back.jpg');
+#back-wood {
+    background-image: url('src/images/back.jpg');
     background-size: cover;
     height: 800px;
 }
 
-
-.navbar{
-    background-color:transparent !important;
+.navbar {
+    background-color: transparent !important;
     font-size: 15px;
-    margin-left:20%;
-    color:rgb(236, 246, 255) !important;
+    margin-left: 20%;
+    color: rgb(236, 246, 255) !important;
 }
 
-.navbar-toggler{
-    background-color:aliceblue !important;
-    margin-right:20%;
+.navbar-toggler {
+    background-color: aliceblue !important;
+    margin-right: 20%;
 }
 
-.navbar-brand{
-    font-size:15px !important;
+.navbar-brand {
+    font-size: 15px !important;
     font-weight: bold;
     font-family: cursive;
     padding-right: 70px !important;
-    color:aliceblue !important;
+    color: aliceblue !important;
 }
 
-.nav-link{
-    color:aliceblue !important;
+.nav-link {
+    color: aliceblue !important;
     padding-left: 40px !important;
 }
 
-.nav-link:hover{
-    color:grey !important;
+.nav-link:hover {
+    color: grey !important;
 }
 
-.fa{
-    padding:10px !important ;
-    color:aliceblue !important;
+.fa {
+    padding: 10px !important;
+    color: aliceblue !important;
 }
 
-.fa-envelope{
-    padding-left:70px !important;
+.fa-envelope {
+    padding-left: 70px !important;
 }
 
-.fa:hover{
-    color:grey !important;
+.fa:hover {
+    color: grey !important;
 }
 
-.page-header{
-    margin-left:15%;
+.page-header {
+    margin-left: 15%;
     margin-right: 15%;
-    padding-top:120px;
-    color:aliceblue;
+    padding-top: 120px;
+    color: aliceblue;
 }
 
-.my-container{
-    width:90%;
-    height:100%;
-    flex:1;
-    position:relative;
-}
-
-#my-frame{
-    max-width:80%;
-    height:auto;
+#my-frame {
+    max-width: 80%;
+    height: auto;
     transform: rotate(-3deg);
 }
 
-.timeline{
-    background-color:red;
-    margin:15%;
-    padding:20px;
+#about_me {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
 }
 
+.progress {
+    height: 20px !important;
+}
 
+.parallax {
+    background-image: url("src/images/football.jpg");
+    min-height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -21.4%;
+    margin-right: -21.4%;
+}
 
-@media only screen and (max-width:780px){
-    #back-wood{
-        height:1200px !important;
+#experience {
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.back_white_exp {
+    background-image: url("src/images/pexels-dominika-roseclay-912396.jpg");
+    background-size: cover;
+}
+
+.card {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.card-body {}
+
+#pcbkingdome_pic {
+    width: 80px;
+}
+
+@media only screen and (max-width:780px) {
+    #back-wood {
+        height: 1200px !important;
     }
-
 }
