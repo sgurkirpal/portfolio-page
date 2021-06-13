@@ -14,7 +14,7 @@ body {}
 .navbar {
     background-color: transparent !important;
     font-size: 15px;
-    margin-left: 20%;
+    margin-left: 18%;
     color: rgb(236, 246, 255) !important;
 }
 
@@ -60,10 +60,17 @@ body {}
     color: aliceblue;
 }
 
+.transform-perspective-right {
+    transform: scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg);
+}
+
+.transform-perspective-left {
+    transform: scale(1) perspective(2000px) rotateY(11deg) rotateX(2deg) rotate(-2deg);
+}
+
 #my-frame {
     max-width: 80%;
     height: auto;
-    transform: rotate(-3deg);
 }
 
 #about_me {
@@ -88,7 +95,6 @@ body {}
 }
 
 #experience {
-    margin-top: 10%;
     margin-left: 15%;
     margin-right: 15%;
 }
@@ -103,10 +109,23 @@ body {}
     margin-right: 10%;
 }
 
-.card-body {}
-
 #pcbkingdome_pic {
     width: 80px;
+}
+
+#education {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.showcase-pic {
+    background-color: rgb(231, 231, 231);
+}
+
+#showcases {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
 }
 
 @media only screen and (max-width:780px) {
