@@ -1,7 +1,7 @@
 html,
 body {}
 
-* {
+body {
     font-family: cursive;
 }
 
@@ -104,7 +104,12 @@ body {}
     background-size: cover;
 }
 
-.card {
+#experience .card {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#education .card {
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -118,15 +123,50 @@ body {}
     margin-right: 15%;
 }
 
-.showcase-pic {
-    background-color: rgb(231, 231, 231);
+.showcase_pic {
+    background-image: url("src/images/bubbles.svg") !important;
+    background-size: cover;
 }
 
 #showcases {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 18%;
+    margin-right: 18%;
     margin-top: 5%;
 }
+
+.carousel-item {
+    height: 400px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.projects-pic {
+    background-image: url("src/images/bubbles.svg") !important;
+    background-size: cover;
+}
+
+#projects {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+.card-title {
+    color: rgb(87, 87, 255) !important;
+}
+
+.dot {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#projects .card {}
 
 @media only screen and (max-width:780px) {
     #back-wood {
