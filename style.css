@@ -166,10 +166,88 @@ body {
     display: inline-block;
 }
 
-#projects .card {}
+.skillset_pic {
+    background-image: url("src/images/bubbles2.svg");
+    background-size: cover;
+}
+
+#skillset {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10%;
+}
+
+#skillset .card {
+    margin: 3%;
+}
+
+#skillset .card:hover {
+    bottom: 15px;
+}
+
+.avatar {
+    color: #fff;
+    background-color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+}
+
+.avatar img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.avatar+.avatar-content {
+    display: inline-block;
+    margin-left: .75rem;
+}
+
+.avatar-lg {
+    width: 58px;
+    height: 58px;
+    font-size: 1.75rem;
+}
+
+.avatar-sm {
+    width: 38px;
+    height: 38px;
+    font-size: 0.875rem;
+}
+
+.avatar-group .avatar {
+    position: relative;
+    z-index: 2;
+    border: 2px solid #adb5bd;
+}
+
+.avatar-group .avatar:hover {
+    z-index: 3;
+}
+
+.avatar-group .avatar+.avatar {
+    margin-left: -1rem;
+}
+
+#contact {
+    margin: 15%;
+    text-align: center;
+}
 
 @media only screen and (max-width:780px) {
     #back-wood {
         height: 1200px !important;
+    }
+    #experience .card {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    #education .card {
+        margin-left: 0%;
+        margin-right: 0%;
     }
 }
